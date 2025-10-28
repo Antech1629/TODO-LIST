@@ -1,0 +1,76 @@
+body{
+    background-color:rgb(79, 105, 128);
+    display: flex;
+}
+h2{
+    font-family: fantasy;
+    text-decoration: line-through;
+    font-size: 30px;
+}
+.container{
+    width: 500px;
+    height: 100%;
+    background-color: lightseagreen;
+    padding: 7px;
+    border-radius: 7px;
+    text-align: center;
+    margin-left: 394px;
+    margin-top: 20px;
+}
+label{
+    font-family: cursive;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.list1 .list2 .list3 .list4{
+flex-direction: column;
+justify-content: center;
+align-items: center;
+display: flex;
+border-radius: 6px;
+width: 300px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: brown;
+    transition: 0.1s ease-in-out; 
+    font-family: Impact;
+}
+a:hover{
+    color: blue;
+}
+a:visited{
+    color: gold;
+}
+a:focus{
+    color: green;
+}
+.list1{
+    border: 3px solid black;
+    border-radius: 4px;
+    background-color: bisque;
+}
+.list2{
+    border: 3px solid black;
+    border-radius: 4px;
+    background-color: beige;
+}
+.list3{
+    border: 3px solid black;
+    border-radius: 4px;
+    background-color: bisque;
+}
+.list4{
+    border: 3px solid black;
+    border-radius: 4px;
+    background-color: beige;
+}
+footer{
+    font-family: cursive;
+    font-size: 25px;
+    text-decoration: line-through;
+    color: rgb(168, 65, 28);
+}
